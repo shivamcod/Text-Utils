@@ -46,8 +46,8 @@ function App() {
     <>
     {/* <Router> */}
     <Navbar title= "Code with Shivam" abouttext = "About Us" mode={mode} togglemode = {togglemode} text = {text}/>
-    {/* <Alert alert={alert}/>
-    <Switch>
+    <Alert alert={alert}/>
+    {/* <Switch>
       <Route path="/about">
         <About/>
       </Route>
